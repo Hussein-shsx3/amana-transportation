@@ -8,7 +8,7 @@ const Header: React.FC<HeaderProps> = ({ companyInfo, operationalSummary }) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg">
+    <div className="bg-gradient-to-r from-indigo-700 to-purple-700 text-white shadow-lg">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
